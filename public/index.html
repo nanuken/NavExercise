@@ -1,10 +1,115 @@
 <!doctype html>
 <html>
+
 <head>
-  <title>HUGE NavExercise</title>
-  <link rel="stylesheet" href="/styles/main.css">
+    <title>HUGE NavExercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
-<h1>Hello.</h1>
+
+
+    <header id="header-wrapper">
+        <div id="logo-wrapper">
+            <a href="#"><img id="logo"></img>
+            </a>
+        </div>
+        <nav role="navigation" id="nav-container">
+            <div class="nav-mobile nav-mobile-open"></div>
+            <ul id="nav-primary" class="menu-component">
+                <li> <a href="#" class="parent">Work</a>
+                </li>
+                <li> <a href="#" class="parent">About</a>
+                </li>
+
+                <li class="hover"> <a href="#" class="parent">Careers</a>
+                    <!-- -->
+                    <ul class="floating-nav sub-menu">
+                        <li> <a href="#">Client Services</a>
+                        </li>
+                        <li> <a href="#">Creative</a>
+                        </li>
+                        <li> <a href="#">Motion & Media</a>
+                        </li>
+                        <li> <a href="#">Operations</a>
+                        </li>
+                        <li> <a href="#">UX & Product Design</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li> <a href="#" class="parent">Ideas</a>
+                </li>
+                <li> <a href="#" class="parent">News</a>
+                </li>
+                <li> <a href="#" class="parent">Events</a>
+                </li>
+                <li> <a href="#" class="parent">Contact</a>
+                </li>
+            </ul>
+
+
+        </nav>
+    </header>
+    <div id="page-wrapper" class="">
+        <div class="site-content">
+            <div class="top-container non-visible">
+                <h1>Get paid for giving a shit.</h1>
+            </div>
+
+            <div class="botom-container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique congue tortor, sit amet commodo sem gravida a. Ut aliquam ante ut ligula sagittis auctor iaculis non est. Donec eu finibus lacus. Nullam faucibus consequat orci non cursus. Fusce erat neque, faucibus nec dignissim eu, sodales nec justo. Duis massa mauris, tristique facilisis ligula a, auctor viverra nulla. Phasellus pellentesque metus in eros placerat elementum.
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- -->
+    <ul id="nav-primary-mobile" class="menu-component mobile on">
+        <li> <a href="#" class="parent">Work</a>
+        </li>
+        <li> <a href="#" class="parent">About</a>
+        </li>
+
+        <li class="hover"> <a href="#" class="">Careers</a>
+            <!-- -->
+            <ul class="sub-menu">
+                <li> <a href="#">Client Services</a>
+                </li>
+                <li> <a href="#">Creative</a>
+                </li>
+                <li> <a href="#">Motion & Media</a>
+                </li>
+                <li> <a href="#">Operations</a>
+                </li>
+                <li> <a href="#">UX & Product Design</a>
+                </li>
+            </ul>
+        </li>
+
+        <li> <a href="#" class="parent">Ideas</a>
+        </li>
+        <li> <a href="#" class="parent">News</a>
+        </li>
+        <li> <a href="#" class="parent">Events</a>
+        </li>
+        <li> <a href="#" class="parent">Contact</a>
+        </li>
+
+
+    </ul>
+
+    <script src="js/core/config.js"></script>
+    <!-- -->
+    <script src="js/events/EventList.js"></script>
+    <script src="js/events/Events.js"></script>
+    <script src="js/data/ServiceManager.js"></script>
+    <script src="js/ui/MenuBuilder.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
