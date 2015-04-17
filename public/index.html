@@ -9,102 +9,49 @@
 
 <body>
 
-
+    <!-- BEGIN: header -->
     <header id="header-wrapper">
         <div id="logo-wrapper">
             <a href="#"><img id="logo"></img>
             </a>
         </div>
         <nav role="navigation" id="nav-container">
-            <div class="nav-mobile nav-mobile-open"></div>
-            <ul id="nav-primary" class="menu-component">
-                <li> <a href="#" class="parent">Work</a>
-                </li>
-                <li> <a href="#" class="parent">About</a>
-                </li>
-
-                <li class="hover"> <a href="#" class="parent">Careers</a>
-                    <!-- -->
-                    <ul class="floating-nav sub-menu">
-                        <li> <a href="#">Client Services</a>
-                        </li>
-                        <li> <a href="#">Creative</a>
-                        </li>
-                        <li> <a href="#">Motion & Media</a>
-                        </li>
-                        <li> <a href="#">Operations</a>
-                        </li>
-                        <li> <a href="#">UX & Product Design</a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li> <a href="#" class="parent">Ideas</a>
-                </li>
-                <li> <a href="#" class="parent">News</a>
-                </li>
-                <li> <a href="#" class="parent">Events</a>
-                </li>
-                <li> <a href="#" class="parent">Contact</a>
-                </li>
-            </ul>
-
-
+            <div id="nav-mobile" class="nav-mobile-open"></div>
         </nav>
     </header>
-    <div id="page-wrapper" class="">
-        <div class="site-content">
-            <div class="top-container non-visible">
-                <h1>Get paid for giving a shit.</h1>
-            </div>
 
-            <div class="botom-container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique congue tortor, sit amet commodo sem gravida a. Ut aliquam ante ut ligula sagittis auctor iaculis non est. Donec eu finibus lacus. Nullam faucibus consequat orci non cursus. Fusce erat neque, faucibus nec dignissim eu, sodales nec justo. Duis massa mauris, tristique facilisis ligula a, auctor viverra nulla. Phasellus pellentesque metus in eros placerat elementum.
-                </p>
+    <!-- END: header -->
+
+    <!-- BEGIN: content wrapper -->
+    <div id="content-wrapper">
+        <div id="nav-mobile-container" class="mobile">
+            <div id="footer">
+                <span>© 2014 Huge. All Rights Reserved.</span>
             </div>
         </div>
+        <div id="page-wrapper">
 
+            <div id="overlay" class="no-display"></div>
 
+            <div class="site-content">
+                <div class="top-container">
+                    <img class="bg-container" src="images/background-image.jpg" />
+                </div>
 
+                <h1 class="headline">Get paid for giving a shit.</h1>
+
+                <div class="botom-container">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique congue tortor, sit amet commodo sem gravida a. Ut aliquam ante ut ligula sagittis auctor iaculis non est. Donec eu finibus lacus. Nullam faucibus consequat orci non cursus. Fusce erat neque, faucibus nec dignissim eu, sodales nec justo. Duis massa mauris, tristique facilisis ligula a, auctor viverra nulla. Phasellus pellentesque metus in eros placerat elementum.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- -->
-    <ul id="nav-primary-mobile" class="menu-component mobile on">
-        <li> <a href="#" class="parent">Work</a>
-        </li>
-        <li> <a href="#" class="parent">About</a>
-        </li>
+    <!-- END: content wrapper -->
 
-        <li class="hover"> <a href="#" class="">Careers</a>
-            <!-- -->
-            <ul class="sub-menu">
-                <li> <a href="#">Client Services</a>
-                </li>
-                <li> <a href="#">Creative</a>
-                </li>
-                <li> <a href="#">Motion & Media</a>
-                </li>
-                <li> <a href="#">Operations</a>
-                </li>
-                <li> <a href="#">UX & Product Design</a>
-                </li>
-            </ul>
-        </li>
-
-        <li> <a href="#" class="parent">Ideas</a>
-        </li>
-        <li> <a href="#" class="parent">News</a>
-        </li>
-        <li> <a href="#" class="parent">Events</a>
-        </li>
-        <li> <a href="#" class="parent">Contact</a>
-        </li>
-
-
-    </ul>
-
+    <!-- scripts -->
     <script src="js/core/config.js"></script>
-    <!-- -->
     <script src="js/events/EventList.js"></script>
     <script src="js/events/Events.js"></script>
     <script src="js/data/ServiceManager.js"></script>
